@@ -1,0 +1,99 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+a {
+  color: #14c0c9;
+  text-decoration: none; }
+
+a:visited {
+  color: #0f949b; }
+
+a:hover {
+  color: #0f949b; }
+
+a:active {
+  color: #16d6e0; }
+
+/* Align
+------------------------------------------------------------*/
+.text-center {
+  text-align: center; }
+
+/* body
+------------------------------------------------------------*/
+.image {
+  background-image: url("../image/kadai.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center; }
+
+@media (max-width: 768px) {
+  .image {
+    height: 250px; } }
+#boxes h1 {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 10px 0; }
+
+.container {
+  display: flex;
+  flex-direction: row; }
+
+.box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: solid 1px black;
+  margin: 15px;
+  flex: 1; }
+
+#boxes h2 {
+  color: #000000;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: gray; }
+
+#boxes p {
+  text-align: center;
+  margin: 20px; }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; } }
+/* Footer
+------------------------------------------------------------*/
+footer
+#pageunder .under {
+  background-color: gray;
+  padding: 15px; }
+
+#pageunder h3 {
+  color: #000000;
+  font-size: 2rem;
+  padding: 10px; }
+
+#pageunder .switch {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
